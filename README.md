@@ -1,21 +1,5 @@
 # getRepuset
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-	</head>
-	<body>
-		<input type="button" name="" id="btn" value="点击跳转页面" />
-	</body>
-</html>
-<script type="text/javascript">
-	var btn=document.getElementById("btn");
-	btn.onclick=function(){
-		window.location.href="b.html?heyushuo=111&aa=999";
-	}
-		
 	function getRequest(){
 		var url=location.search;//获取url中"?"符后的字符串,
 		var Request=new Object();
@@ -28,4 +12,3 @@
 			return Request
 		}
 	}
-</script>
